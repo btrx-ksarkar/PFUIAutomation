@@ -1,0 +1,158 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying: Expected to find content: 'Notebook' but never did.",
+      "children" : [ {
+        "name" : "ID: TS_09 Verify the contents displayed at the Main Content Area Section",
+        "uid" : "e11e59a8b9b8f2a9",
+        "parentUid" : "46df7edb5b0cf1742668303b64684cf4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599715655326,
+          "stop" : 1599715668176,
+          "duration" : 12850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46df7edb5b0cf1742668303b64684cf4"
+    }, {
+      "name" : "Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard' to include 'sagemaker'",
+      "children" : [ {
+        "name" : "ID: TS_28 Verify Click on the Datascience Notebook tab should lead to the Sagemaker",
+        "uid" : "d81e4c49a6f1a3a8",
+        "parentUid" : "d6deab37f3df2208800550b796a35f88",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599715703574,
+          "stop" : 1599715709336,
+          "duration" : 5762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ID: TS_07 Verify Click on Datascience Notebook [Left Menu] should lead to Sagemaker",
+        "uid" : "68a157fd7a06b7a7",
+        "parentUid" : "d6deab37f3df2208800550b796a35f88",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599801511525,
+          "stop" : 1599801521342,
+          "duration" : 9817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6deab37f3df2208800550b796a35f88"
+    }, {
+      "name" : "Timed out retrying: Expected to find element: `#okta-signin-username`, but never found it.",
+      "children" : [ {
+        "name" : "ID: TS_30 Verify the logout functionality",
+        "uid" : "f04de390eaeedacd",
+        "parentUid" : "8a8264c161b57e7218d2c54fbffa50b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599715710806,
+          "stop" : 1599715721153,
+          "duration" : 10347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a8264c161b57e7218d2c54fbffa50b9"
+    }, {
+      "name" : "Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dataset/117dbdf5-d3ac-44ce-9330-c4e7c50872c4/detail' to include 'sagemaker'",
+      "children" : [ {
+        "name" : "ID: TD_09 validate sagemaker",
+        "uid" : "bd4de08d6d610169",
+        "parentUid" : "cc2c63a14fe0d1ac6f50c6b7d472a536",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599715914019,
+          "stop" : 1599715930398,
+          "duration" : 16379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc2c63a14fe0d1ac6f50c6b7d472a536"
+    }, {
+      "name" : "cy.url(...).include is not a function",
+      "children" : [ {
+        "name" : "ID: TD_10 Verify the QUERY DATA",
+        "uid" : "4e6c3c61525a7371",
+        "parentUid" : "c8b54e7413cbd61f031cd88bbb9ec703",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599715930484,
+          "stop" : 1599715931901,
+          "duration" : 1417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8b54e7413cbd61f031cd88bbb9ec703"
+    }, {
+      "name" : "Timed out retrying: expected '<span.badge.badge-pill.badge-warning>' to be 'visible'\n\nThis element `<span.badge.badge-pill.badge-warning>` is not visible because its parent `<div.card.mr-3.mb-3>` has CSS property: `display: none`",
+      "children" : [ {
+        "name" : "TQC_08 Validation",
+        "uid" : "dfbcccd682a6e7d1",
+        "parentUid" : "073778478192c9c08781b630775a797e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599716115885,
+          "stop" : 1599716139515,
+          "duration" : 23630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "073778478192c9c08781b630775a797e"
+    }, {
+      "name" : "Timed out retrying: Expected to find element: `.single-nav-pipeline-container:nth-child(7)`, but never found it.",
+      "children" : [ {
+        "name" : "Approve Archive request",
+        "uid" : "6f2a1a2b746a1d16",
+        "parentUid" : "78452825bdfd6456d0144cce1fd09315",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599801331144,
+          "stop" : 1599801396333,
+          "duration" : 65189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78452825bdfd6456d0144cce1fd09315"
+    }, {
+      "name" : "Timed out retrying: Expected to find element: `button .create-button-heading`, but never found it.",
+      "children" : [ {
+        "name" : "Create Archive request",
+        "uid" : "f7f4492942c2dbf0",
+        "parentUid" : "eb3ceb0e995668de52fa0154c7020067",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599801396398,
+          "stop" : 1599801413332,
+          "duration" : 16934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb3ceb0e995668de52fa0154c7020067"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

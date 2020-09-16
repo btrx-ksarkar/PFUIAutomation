@@ -1,0 +1,771 @@
+{
+  "uid" : "c1ecfdd018379c00",
+  "name" : "TQC_04 01 Bold Resting State",
+  "fullName" : "TQC_04 01 Bold Resting State",
+  "historyId" : "fb28b86352de0ef600622fd4b6ae76c5",
+  "time" : {
+    "start" : 1599716095813,
+    "stop" : 1599716106142,
+    "duration" : 10329
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/landing/dashboard\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599716096076,
+        "stop" : 1599716098136,
+        "duration" : 2060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/landing/dashboard\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599716106936,
+        "stop" : 1599716108690,
+        "duration" : 1754
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ {
+      "name" : "fixture (\"blackthorn\")",
+      "time" : {
+        "start" : 1599716040161,
+        "stop" : 1599716040291,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log (\"[object Object]\")",
+      "time" : {
+        "start" : 1599716040294,
+        "stop" : 1599716040302,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "loginOkta",
+      "time" : {
+        "start" : 1599716040302,
+        "stop" : 1599716054458,
+        "duration" : 14156
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "request (\"[object Object]\")",
+        "time" : {
+          "start" : 1599716040304,
+          "stop" : 1599716041680,
+          "duration" : 1376
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"Session Token: \"; \"20111fh2WsAZoVLbZgnwTqBHqzSu34MOjN2DzDZSTNkN4srEmrcPU_m\")",
+        "time" : {
+          "start" : 1599716041682,
+          "stop" : 1599716041690,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"20111fh2WsAZoVLbZgnwTqBHqzSu34MOjN2DzDZSTNkN4srEmrcPU_m\")",
+        "time" : {
+          "start" : 1599716041690,
+          "stop" : 1599716041698,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "request (\"[object Object]\")",
+        "time" : {
+          "start" : 1599716041698,
+          "stop" : 1599716042327,
+          "duration" : 629
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"RedirectURL: \"; \"https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback#access_token=eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULm5qb2RIUUdTeVg1aXAzS3p2RWswTmhTcEhXVXNqUldIQ09SLXFNVC1ZdmMiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE2MDQxLCJleHAiOjE1OTk3MTk2NDEsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.Q4rL5ZOWBpWKRNuTLH-sYmTj1JdJ-kqPzh2oaSZBSeisuN3WhThPlJ9guIH4rYBWkytc9dyhAiDClMht1MJtLP_maZoPWQYe5ZR07SXK957PTV4ciL3KEOwXHQ2px406IdtQx22z0zthF01FkDtxMEFjMyTwLKmTRBI7CK1viA5M9rfbpHo-LkszEPvHZupRCCoXrNTyrYEmQDEzKHRNeHysVR18S0IifMguTtGfvbOSu_qQBY5VopWAauO4nbi4qlx0wGX3yyA4OXVKGF9yPSQfU0fA55Ek26B-CfKyFgbczB0H6EythxnZuaongHDiq04GmUMJGrhDgRKeHoPEsw&token_type=Bearer&expires_in=3600&scope=openid&state=1234\")",
+        "time" : {
+          "start" : 1599716042330,
+          "stop" : 1599716042341,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"Access Token: \"; \"eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULm5qb2RIUUdTeVg1aXAzS3p2RWswTmhTcEhXVXNqUldIQ09SLXFNVC1ZdmMiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE2MDQxLCJleHAiOjE1OTk3MTk2NDEsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.Q4rL5ZOWBpWKRNuTLH-sYmTj1JdJ-kqPzh2oaSZBSeisuN3WhThPlJ9guIH4rYBWkytc9dyhAiDClMht1MJtLP_maZoPWQYe5ZR07SXK957PTV4ciL3KEOwXHQ2px406IdtQx22z0zthF01FkDtxMEFjMyTwLKmTRBI7CK1viA5M9rfbpHo-LkszEPvHZupRCCoXrNTyrYEmQDEzKHRNeHysVR18S0IifMguTtGfvbOSu_qQBY5VopWAauO4nbi4qlx0wGX3yyA4OXVKGF9yPSQfU0fA55Ek26B-CfKyFgbczB0H6EythxnZuaongHDiq04GmUMJGrhDgRKeHoPEsw\")",
+        "time" : {
+          "start" : 1599716042341,
+          "stop" : 1599716042351,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "wrap (\"eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULm5qb2RIUUdTeVg1aXAzS3p2RWswTmhTcEhXVXNqUldIQ09SLXFNVC1ZdmMiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE2MDQxLCJleHAiOjE1OTk3MTk2NDEsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.Q4rL5ZOWBpWKRNuTLH-sYmTj1JdJ-kqPzh2oaSZBSeisuN3WhThPlJ9guIH4rYBWkytc9dyhAiDClMht1MJtLP_maZoPWQYe5ZR07SXK957PTV4ciL3KEOwXHQ2px406IdtQx22z0zthF01FkDtxMEFjMyTwLKmTRBI7CK1viA5M9rfbpHo-LkszEPvHZupRCCoXrNTyrYEmQDEzKHRNeHysVR18S0IifMguTtGfvbOSu_qQBY5VopWAauO4nbi4qlx0wGX3yyA4OXVKGF9yPSQfU0fA55Ek26B-CfKyFgbczB0H6EythxnZuaongHDiq04GmUMJGrhDgRKeHoPEsw\")",
+        "time" : {
+          "start" : 1599716042351,
+          "stop" : 1599716042362,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "as (\"accessToken\")",
+        "time" : {
+          "start" : 1599716042362,
+          "stop" : 1599716042364,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "visit (\"https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback#access_token=eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULm5qb2RIUUdTeVg1aXAzS3p2RWswTmhTcEhXVXNqUldIQ09SLXFNVC1ZdmMiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE2MDQxLCJleHAiOjE1OTk3MTk2NDEsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.Q4rL5ZOWBpWKRNuTLH-sYmTj1JdJ-kqPzh2oaSZBSeisuN3WhThPlJ9guIH4rYBWkytc9dyhAiDClMht1MJtLP_maZoPWQYe5ZR07SXK957PTV4ciL3KEOwXHQ2px406IdtQx22z0zthF01FkDtxMEFjMyTwLKmTRBI7CK1viA5M9rfbpHo-LkszEPvHZupRCCoXrNTyrYEmQDEzKHRNeHysVR18S0IifMguTtGfvbOSu_qQBY5VopWAauO4nbi4qlx0wGX3yyA4OXVKGF9yPSQfU0fA55Ek26B-CfKyFgbczB0H6EythxnZuaongHDiq04GmUMJGrhDgRKeHoPEsw&token_type=Bearer&expires_in=3600&scope=openid&state=1234\")",
+        "time" : {
+          "start" : 1599716042364,
+          "stop" : 1599716052796,
+          "duration" : 10432
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1599716052799,
+          "stop" : 1599716054458,
+          "duration" : 1659
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 10
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 13
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"#navbarCollapse > ul > li:nth-child(6) > a\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599716098159,
+        "stop" : 1599716098209,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<a.nav-item.nav-item-single.nav-link>** to be **visible** assert",
+      "time" : {
+        "start" : 1599716098209,
+        "stop" : 1599716098209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#navbarCollapse > ul > li:nth-child(6) > a\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599716098209,
+        "stop" : 1599716098242,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1599716098242,
+        "stop" : 1599716098396,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/oauth2/default/v1/userinfo",
+      "time" : {
+        "start" : 1599716098395,
+        "stop" : 1599716098395,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "xpath (\"//app-evaluable-datasets/div/div/span\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599716098397,
+        "stop" : 1599716102341,
+        "duration" : 3944
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/landing/quality-control/datasets new url",
+      "time" : {
+        "start" : 1599716102339,
+        "stop" : 1599716102339,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/api/v1/users/pf-bck-user1@blackthornrx.com",
+      "time" : {
+        "start" : 1599716102340,
+        "stop" : 1599716102340,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://jaukjdn917.execute-api.us-east-2.amazonaws.com/dev/user/pf-bck-user1@blackthornrx.com",
+      "time" : {
+        "start" : 1599716102340,
+        "stop" : 1599716102340,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pathfinder-dev-portal.blackthornrx.com:8443/v0.1/dataset",
+      "time" : {
+        "start" : 1599716102341,
+        "stop" : 1599716102341,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "//app-evaluable-datasets/div/div/span xpath",
+      "time" : {
+        "start" : 1599716102341,
+        "stop" : 1599716102341,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"tr:nth-child(1) > td.col-2 > button\")",
+      "time" : {
+        "start" : 1599716102341,
+        "stop" : 1599716103846,
+        "duration" : 1505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<button.btn.btn-primary.qc-button>** to be **visible** assert",
+      "time" : {
+        "start" : 1599716103846,
+        "stop" : 1599716103846,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"tr:nth-child(1) > td.col-2 > button\")",
+      "time" : {
+        "start" : 1599716103846,
+        "stop" : 1599716103867,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1599716103867,
+        "stop" : 1599716104094,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/landing/quality-control/datasets/1/scans new url",
+      "time" : {
+        "start" : 1599716104093,
+        "stop" : 1599716104093,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pathfinder-dev-portal.blackthornrx.com:8443/v0.1/dataset/1",
+      "time" : {
+        "start" : 1599716104094,
+        "stop" : 1599716104094,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#cardHeading_SC2 > h2 > button\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599716104094,
+        "stop" : 1599716105178,
+        "duration" : 1084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<button.btn.btn-link>** to be **visible** assert",
+      "time" : {
+        "start" : 1599716105178,
+        "stop" : 1599716105178,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pathfinder-dev-portal.blackthornrx.com:8443/v0.1/dataset/1/sweeping-scan",
+      "time" : {
+        "start" : 1599716105178,
+        "stop" : 1599716105178,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1599716105179,
+        "stop" : 1599716105349,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pathfinder-dev-portal.blackthornrx.com:8443/v0.1/dataset/sweeping-scan/1/scan?page_size=20&page_number=1&include_evaluation_counts=true",
+      "time" : {
+        "start" : 1599716105348,
+        "stop" : 1599716105348,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pathfinder-dev-portal.blackthornrx.com:8443/v0.1/dataset/sweeping-scan/2/scan?page_size=20&page_number=1&include_evaluation_counts=true",
+      "time" : {
+        "start" : 1599716105349,
+        "stop" : 1599716105349,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "xpath (\"(//*[@class='evaluate'])[1]\")",
+      "time" : {
+        "start" : 1599716105355,
+        "stop" : 1599716105774,
+        "duration" : 419
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "(//*[@class='evaluate'])[1] xpath",
+      "time" : {
+        "start" : 1599716105774,
+        "stop" : 1599716105774,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click (\"[object Object]\")",
+      "time" : {
+        "start" : 1599716105774,
+        "stop" : 1599716106033,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/landing/quality-control/scan/1/evaluation new url",
+      "time" : {
+        "start" : 1599716106031,
+        "stop" : 1599716106031,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pathfinder-dev-portal.blackthornrx.com:8443/v0.1/dataset/scan/1?include_parents=true",
+      "time" : {
+        "start" : 1599716106032,
+        "stop" : 1599716106032,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://pathfinder-dev-portal.blackthornrx.com:8443/v0.1/evaluation/scan/1/statement/individual",
+      "time" : {
+        "start" : 1599716106033,
+        "stop" : 1599716106033,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"h2.title\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599716106033,
+        "stop" : 1599716106140,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<h2.title.my-4>** to be **visible** assert",
+      "time" : {
+        "start" : 1599716106140,
+        "stop" : 1599716106140,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 31
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "QC E2E test"
+  }, {
+    "name" : "suite",
+    "value" : "Login to Okta, Navigating to dashboard"
+  }, {
+    "name" : "subSuite",
+    "value" : "ID: TQC_04 mLogIn to Pathfinder and go to Quality Control Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1ecfdd018379c00.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,668 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ID: TS_21 Verify Click on Privacy policy at the bottom of the page should lead to policy page",
+    "uid" : "bccff5f7e640667d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599801447971,
+      "stop" : 1599801456951,
+      "duration" : 8980
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_29 Verify Click on the ML Pipeline tab should lead to the ML Pipeline tab",
+    "uid" : "ec01464488770598",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715709432,
+      "stop" : 1599715710791,
+      "duration" : 1359
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_03 Verify the contents displayed at the Left Menu section",
+    "uid" : "cf2d5e3aafdcad90",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715602514,
+      "stop" : 1599715612779,
+      "duration" : 10265
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TQC_03 Validation",
+    "uid" : "380731e4cf564a34",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599716078856,
+      "stop" : 1599716095363,
+      "duration" : 16507
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_28 Verify Click on the Datascience Notebook tab should lead to the Sagemaker",
+    "uid" : "d81e4c49a6f1a3a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599715703574,
+      "stop" : 1599715709336,
+      "duration" : 5762
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_07 Verify Click on Datascience Notebook [Left Menu] should lead to Sagemaker",
+    "uid" : "68a157fd7a06b7a7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599801511525,
+      "stop" : 1599801521342,
+      "duration" : 9817
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TQC_01 Validation",
+    "uid" : "707fb4e685b8c573",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599716054653,
+      "stop" : 1599716070717,
+      "duration" : 16064
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_08 Verify Click on ML Pipeline [Left Menu] should lead to ML Pipeline page",
+    "uid" : "f49d11ae584109d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599801521377,
+      "stop" : 1599801530159,
+      "duration" : 8782
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_22 Verify Click on Terms of Use at the bottom of the page should lead to Terms usage page",
+    "uid" : "bf1edb812e86349d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599801456993,
+      "stop" : 1599801465296,
+      "duration" : 8303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_02 iSPOT-D: International Study to Predict Optimized Treatment for Depression",
+    "uid" : "daf9b32faa8e7115",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715802046,
+      "stop" : 1599715831805,
+      "duration" : 29759
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_08 verify detail page",
+    "uid" : "8ac3d002f0c6a7b9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715746162,
+      "stop" : 1599715782864,
+      "duration" : 36702
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_10 Verify the QUERY DATA",
+    "uid" : "4e6c3c61525a7371",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599715930484,
+      "stop" : 1599715931901,
+      "duration" : 1417
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_06 NEP-MDD-201 SDTM-AE",
+    "uid" : "a26897fe01c3c9e1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715890980,
+      "stop" : 1599715904098,
+      "duration" : 13118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_02 Verify the contents displayed at the Footer section",
+    "uid" : "774dbc9d3f79d337",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599801436693,
+      "stop" : 1599801447858,
+      "duration" : 11165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_04 EMBARC: Establishing Moderators and Biosignatures of Antidepressant Response in Clinical Care",
+    "uid" : "17b5c07e04859e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715850392,
+      "stop" : 1599715871433,
+      "duration" : 21041
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TQC_04 02 T1 Weighted image",
+    "uid" : "cdf876e78e27a947",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599716106256,
+      "stop" : 1599716115785,
+      "duration" : 9529
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Approve Archive request",
+    "uid" : "6f2a1a2b746a1d16",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599801331144,
+      "stop" : 1599801396333,
+      "duration" : 65189
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_03 Mint-Cog – Reward Cognitive Interactions",
+    "uid" : "4664fe7074e89f46",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715832463,
+      "stop" : 1599715849985,
+      "duration" : 17522
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_03 Verify the contents displayed at the Left Menu section",
+    "uid" : "62b1a76bc55aeaa4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599801481412,
+      "stop" : 1599801492899,
+      "duration" : 11487
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Approve Archive request",
+    "uid" : "6da40b5f518e10d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599715493251,
+      "stop" : 1599715522962,
+      "duration" : 29711
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_07 back to dataset validate",
+    "uid" : "5f2760fe805c4ae4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715904450,
+      "stop" : 1599715913864,
+      "duration" : 9414
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TQC_08 Validation",
+    "uid" : "dfbcccd682a6e7d1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599716115885,
+      "stop" : 1599716139515,
+      "duration" : 23630
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_06 Verify Click on Analytics Portal [Left Menu] should lead to Analytics Portal page",
+    "uid" : "84e5d7b5ca73f1b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715618938,
+      "stop" : 1599715625517,
+      "duration" : 6579
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_05 Verify Click on Datasets [Left Menu] should lead to Datasets page",
+    "uid" : "d855147d208599c3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599801493142,
+      "stop" : 1599801500210,
+      "duration" : 7068
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_01 Verify the contents displayed at the Header section",
+    "uid" : "7052bb4438932991",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715684385,
+      "stop" : 1599715697379,
+      "duration" : 12994
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_01 NEP-MDD-201 ADaM-ADLB",
+    "uid" : "69b88ea2e9a35cd8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715783141,
+      "stop" : 1599715801565,
+      "duration" : 18424
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_09 validate sagemaker",
+    "uid" : "bd4de08d6d610169",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599715914019,
+      "stop" : 1599715930398,
+      "duration" : 16379
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TQC_02 Validation",
+    "uid" : "3567839bace5bba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599716070916,
+      "stop" : 1599716078816,
+      "duration" : 7900
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_22 Verify Click on Terms of Use at the bottom of the page should lead to Terms usage page",
+    "uid" : "4eb0c4e4bff02545",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715580303,
+      "stop" : 1599715586725,
+      "duration" : 6422
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TQC_04 01 Bold Resting State",
+    "uid" : "c1ecfdd018379c00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599716095813,
+      "stop" : 1599716106142,
+      "duration" : 10329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_02 Verify the contents displayed at the Footer section",
+    "uid" : "b417a456c83b4f5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715561473,
+      "stop" : 1599715574413,
+      "duration" : 12940
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_25 Verify the data is saved and Name is displayed on the landing pageE",
+    "uid" : "78b779d859718770",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1599716032750,
+      "stop" : 1599716032751,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create Archive request",
+    "uid" : "2a2aa8d4e48028e2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599715523064,
+      "stop" : 1599715540042,
+      "duration" : 16978
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_08 Verify Click on ML Pipeline [Left Menu] should lead to ML Pipeline page",
+    "uid" : "f7018f73a59b8f2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715634777,
+      "stop" : 1599715638492,
+      "duration" : 3715
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_15 Data Dictionary tab",
+    "uid" : "750fdc2480b077f4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715931916,
+      "stop" : 1599715944280,
+      "duration" : 12364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create Archive request",
+    "uid" : "f7f4492942c2dbf0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599801396398,
+      "stop" : 1599801413332,
+      "duration" : 16934
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TD_05 NEP-MDD-201 Canary Speech",
+    "uid" : "986ab78d008f4c3d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715871843,
+      "stop" : 1599715890416,
+      "duration" : 18573
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_27 Verify Click on the Analytics Portal tab should lead to the Kibana",
+    "uid" : "29fa2a235c09a046",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715702390,
+      "stop" : 1599715703553,
+      "duration" : 1163
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_21 Veirfy Video playing popup and video player",
+    "uid" : "32817ae1af497908",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715963596,
+      "stop" : 1599715984458,
+      "duration" : 20862
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_26 Verify by Cancel at Edit Profile does not save the information",
+    "uid" : "96fc57df23a58957",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1599716032757,
+      "stop" : 1599716032758,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_07 Verify Click on Datascience Notebook [Left Menu] should lead to Sagemaker",
+    "uid" : "249672108eede2bd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599715625541,
+      "stop" : 1599715634736,
+      "duration" : 9195
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TQC_05 Validation",
+    "uid" : "1bcec021ed7d88ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1599716115875,
+      "stop" : 1599716115877,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_19 Verify Click on the Datasets tab should lead to the Dataset tab",
+    "uid" : "2e5e324068746a6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715697537,
+      "stop" : 1599715700561,
+      "duration" : 3024
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_20 Verify Click on the Pathfinder icon should lead to the Homepage of the pathfinder",
+    "uid" : "2a75f2d33c4769df",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715700596,
+      "stop" : 1599715702380,
+      "duration" : 1784
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_30 Verify the logout functionality",
+    "uid" : "f04de390eaeedacd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599715710806,
+      "stop" : 1599715721153,
+      "duration" : 10347
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_24 Verify click on the Edit profile should display the same name as present in the home page",
+    "uid" : "4001ed8a95b54c46",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1599716032736,
+      "stop" : 1599716032741,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_09 Verify the contents displayed at the Main Content Area Section",
+    "uid" : "e11e59a8b9b8f2a9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1599715655326,
+      "stop" : 1599715668176,
+      "duration" : 12850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_20 VMH/Multimodal",
+    "uid" : "49159ffebfe09a5a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715944493,
+      "stop" : 1599715963409,
+      "duration" : 18916
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_06 Verify Click on Analytics Portal [Left Menu] should lead to Analytics Portal page",
+    "uid" : "35401d2f37bc2453",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599801500324,
+      "stop" : 1599801511481,
+      "duration" : 11157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_05 Verify Click on Datasets [Left Menu] should lead to Datasets page",
+    "uid" : "275f4e1a489f188",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715613016,
+      "stop" : 1599715618893,
+      "duration" : 5877
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ID: TS_21 Verify Click on Privacy policy at the bottom of the page should lead to policy page",
+    "uid" : "d093f359a5683292",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599715574521,
+      "stop" : 1599715580262,
+      "duration" : 5741
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

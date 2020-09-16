@@ -1,0 +1,1841 @@
+{
+  "uid" : "8ac3d002f0c6a7b9",
+  "name" : "ID: TD_08 verify detail page",
+  "fullName" : "ID: TD_08 verify detail page",
+  "historyId" : "c995f8f574a1c4f2538ce3b14f3cff61",
+  "time" : {
+    "start" : 1599715746162,
+    "stop" : 1599715782864,
+    "duration" : 36702
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/landing/dashboard\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715746172,
+        "stop" : 1599715755315,
+        "duration" : 9143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "/landing/dashboard visit",
+      "time" : {
+        "start" : 1599715755312,
+        "stop" : 1599715755312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback new url",
+      "time" : {
+        "start" : 1599715755313,
+        "stop" : 1599715755313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/oauth2/default/.well-known/openid-configuration",
+      "time" : {
+        "start" : 1599715755314,
+        "stop" : 1599715755314,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ {
+      "name" : "fixture (\"blackthorn\")",
+      "time" : {
+        "start" : 1599715734964,
+        "stop" : 1599715735015,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log (\"[object Object]\")",
+      "time" : {
+        "start" : 1599715735018,
+        "stop" : 1599715735029,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "loginOkta",
+      "time" : {
+        "start" : 1599715735029,
+        "stop" : 1599715746003,
+        "duration" : 10974
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "request (\"[object Object]\")",
+        "time" : {
+          "start" : 1599715735031,
+          "stop" : 1599715736162,
+          "duration" : 1131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"Session Token: \"; \"20111ujA9l5WxeSAqBWyHEISYkRcqdHO9fTOTh3FG1WGnACeJ9Cd0pj\")",
+        "time" : {
+          "start" : 1599715736165,
+          "stop" : 1599715736174,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"20111ujA9l5WxeSAqBWyHEISYkRcqdHO9fTOTh3FG1WGnACeJ9Cd0pj\")",
+        "time" : {
+          "start" : 1599715736174,
+          "stop" : 1599715736180,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "request (\"[object Object]\")",
+        "time" : {
+          "start" : 1599715736180,
+          "stop" : 1599715736696,
+          "duration" : 516
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"RedirectURL: \"; \"https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback#access_token=eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULjI2MHRZS3ItWllyMFpxSm1Ud3RWOTVweHhROWxYbXNLeHlWTlFGUjdheDQiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE1NzM1LCJleHAiOjE1OTk3MTkzMzUsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.OTJYx7GDIIEla9x47AR9pP9rGu-5W5QU_w6a8oVh9ptWuAXVH4LVXjMabsgm4p6aAmANNu74O2iRUO-tltlHsDXlUrFZQVL8Gjy2ss5vVGZuuKIQxu8-phevOwHx4eNviHl25XCk8K4S0Hp3XcQJlZi1j6hdwoKAbjpvjfIOz7e6fKoLEVnUnAazb1DBRP7M-__9nRQ6zGuRTYi2ci8DCVyko5b0XkbOjUoLDs0D9jja4hPYfFP_KIl5OyAl-jKSIyphuHbWFwC5ItWhV85N7Lf9Y87EexEZeXbsXkftbciDkC8PUQWrv3hWDPjP9V3wWQt3FIBkgzl5PTObLXsftw&token_type=Bearer&expires_in=3600&scope=openid&state=1234\")",
+        "time" : {
+          "start" : 1599715736699,
+          "stop" : 1599715736709,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"Access Token: \"; \"eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULjI2MHRZS3ItWllyMFpxSm1Ud3RWOTVweHhROWxYbXNLeHlWTlFGUjdheDQiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE1NzM1LCJleHAiOjE1OTk3MTkzMzUsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.OTJYx7GDIIEla9x47AR9pP9rGu-5W5QU_w6a8oVh9ptWuAXVH4LVXjMabsgm4p6aAmANNu74O2iRUO-tltlHsDXlUrFZQVL8Gjy2ss5vVGZuuKIQxu8-phevOwHx4eNviHl25XCk8K4S0Hp3XcQJlZi1j6hdwoKAbjpvjfIOz7e6fKoLEVnUnAazb1DBRP7M-__9nRQ6zGuRTYi2ci8DCVyko5b0XkbOjUoLDs0D9jja4hPYfFP_KIl5OyAl-jKSIyphuHbWFwC5ItWhV85N7Lf9Y87EexEZeXbsXkftbciDkC8PUQWrv3hWDPjP9V3wWQt3FIBkgzl5PTObLXsftw\")",
+        "time" : {
+          "start" : 1599715736709,
+          "stop" : 1599715736719,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "wrap (\"eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULjI2MHRZS3ItWllyMFpxSm1Ud3RWOTVweHhROWxYbXNLeHlWTlFGUjdheDQiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE1NzM1LCJleHAiOjE1OTk3MTkzMzUsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.OTJYx7GDIIEla9x47AR9pP9rGu-5W5QU_w6a8oVh9ptWuAXVH4LVXjMabsgm4p6aAmANNu74O2iRUO-tltlHsDXlUrFZQVL8Gjy2ss5vVGZuuKIQxu8-phevOwHx4eNviHl25XCk8K4S0Hp3XcQJlZi1j6hdwoKAbjpvjfIOz7e6fKoLEVnUnAazb1DBRP7M-__9nRQ6zGuRTYi2ci8DCVyko5b0XkbOjUoLDs0D9jja4hPYfFP_KIl5OyAl-jKSIyphuHbWFwC5ItWhV85N7Lf9Y87EexEZeXbsXkftbciDkC8PUQWrv3hWDPjP9V3wWQt3FIBkgzl5PTObLXsftw\")",
+        "time" : {
+          "start" : 1599715736720,
+          "stop" : 1599715736738,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "as (\"accessToken\")",
+        "time" : {
+          "start" : 1599715736738,
+          "stop" : 1599715736741,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "visit (\"https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback#access_token=eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULjI2MHRZS3ItWllyMFpxSm1Ud3RWOTVweHhROWxYbXNLeHlWTlFGUjdheDQiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE1NzM1LCJleHAiOjE1OTk3MTkzMzUsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.OTJYx7GDIIEla9x47AR9pP9rGu-5W5QU_w6a8oVh9ptWuAXVH4LVXjMabsgm4p6aAmANNu74O2iRUO-tltlHsDXlUrFZQVL8Gjy2ss5vVGZuuKIQxu8-phevOwHx4eNviHl25XCk8K4S0Hp3XcQJlZi1j6hdwoKAbjpvjfIOz7e6fKoLEVnUnAazb1DBRP7M-__9nRQ6zGuRTYi2ci8DCVyko5b0XkbOjUoLDs0D9jja4hPYfFP_KIl5OyAl-jKSIyphuHbWFwC5ItWhV85N7Lf9Y87EexEZeXbsXkftbciDkC8PUQWrv3hWDPjP9V3wWQt3FIBkgzl5PTObLXsftw&token_type=Bearer&expires_in=3600&scope=openid&state=1234\")",
+        "time" : {
+          "start" : 1599715736741,
+          "stop" : 1599715743768,
+          "duration" : 7027
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1599715743771,
+          "stop" : 1599715746003,
+          "duration" : 2232
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 10
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 13
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"div.single-nav-dataset-container\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715755417,
+        "stop" : 1599715766693,
+        "duration" : 11276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--page loaded-- page load",
+      "time" : {
+        "start" : 1599715766685,
+        "stop" : 1599715766685,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback#id_token=eyJraWQiOiJ1QktLakJWb2NwU1pXc24xTU12VzhnaTluaTZqcWdocmNqUEFkUnBpQWtVIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIwMHVzdXJqY3p4d0dxZzNVaTBoNyIsIm5hbWUiOiJwZi1iY2stdXNlcjEiLCJlbWFpbCI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwidmVyIjoxLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tL29hdXRoMi9kZWZhdWx0IiwiYXVkIjoiMG9hcGxjOHVxMUZIREtyM0gwaDciLCJpYXQiOjE1OTk3MTU3NTYsImV4cCI6MTU5OTcxOTM1NiwianRpIjoiSUQuY0VOc011aEx3MWpsX2c4N1lhc3JhZ3B5ZWhRQ3BBdzZwc2dDZDdkWUJwMCIsImFtciI6WyJwd2QiXSwiaWRwIjoiMG9hcGFtODR3MFJXWjd4UjEwaDciLCJub25jZSI6IjJ1TVVDTjZVUlJ0dHhRWk54eHhjZzNYOFJLZXU0VEUwTnZwWFd1MDlNSDlib1BFS1o4Z2V4ZEVscGdWSjRnWTIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJwZi1iY2stdXNlcjFAYmxhY2t0aG9ybnJ4LmNvbSIsImF1dGhfdGltZSI6MTU5OTcxNTczNSwiYXRfaGFzaCI6IjBBWHJTWVlrbTljS0hDRVJjbEd3U3cifQ.UgTaPMDpo-vt0EF5yCxHQjjAs-P86vN8ompV2WQ7SLh8FpUOOk7A-R-cPcuiFLyHmHeARy8Yk_u3CmKNqk5TVBY5JEmvNI5YlUoFC7XHUiPfv_YmoY1lyTLdie2iO3o6bBFDPn_GBirxhB0ET6ILVeZV50MDeQVqYxyo_cyWRrEAtVb_T9ltXZ9wVOH9pMT4_6CCnsSlbdogn4Y1e71OLad1fasE6P5M882hsR2K-juX5mPNfepLCy_26loqBdfIBqrUgvAIlVHzsW9dzIZPRBV8yEpmQSy611AyYsDUYyhGjmhHoeFdQkkMgkg_rAyV1IqNP9jx86PDBhP6tYP7Vw&access_token=eyJraWQiOiJ1QktLakJWb2NwU1pXc24xTU12VzhnaTluaTZqcWdocmNqUEFkUnBpQWtVIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlI4OUlya3dKd0YzZ21NMXpyeDJRc0JXZWxrMmpscmtUNHRfSGdhZzZFX00iLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tL29hdXRoMi9kZWZhdWx0IiwiYXVkIjoiYXBpOi8vZGVmYXVsdCIsImlhdCI6MTU5OTcxNTc1NiwiZXhwIjoxNTk5NzE5MzU2LCJjaWQiOiIwb2FwbGM4dXExRkhES3IzSDBoNyIsInVpZCI6IjAwdXN1cmpjenh3R3FnM1VpMGg3Iiwic2NwIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCJdLCJzdWIiOiJwZi1iY2stdXNlcjFAYmxhY2t0aG9ybnJ4LmNvbSJ9.jvFeVJt2zwgtLyfP39DGCXtLeIWjjgEXfPSjgcBo-AqHdJMD2KoGeWrSosnwCU6IjJNSeMYPDEkpcAk0mzf3GW2CpPpA5mWeF5k5NOeG73IfvgNhAgB5cIV9Blc_g66GgkKUyOP0t9-wOTtRk4eb4rYYGmUJxf3lbv38RmNHM4gwmTYHxLlRu7BX4nDHVOzd7z9qL9jei260RSRrQIOq8-_iwZtO4graC976-I906meG4BFr-FxQrUfsAhXl3p19d8xNiAj3hUv9WmtnGxMOCE__Gtmw96GK41LW-Z_W5HW0w5CVos2W7MwnzEHKTLODh_mD_ElLwwHc_aggyODmKw&token_type=Bearer&expires_in=3600&scope=openid+profile+email&state=a0x8hGcOT7KtWMuPtZpQnnvxk8iZLM84sxw8ilQJOSgccpHLQ7fxMkz8ChejICsy new url",
+      "time" : {
+        "start" : 1599715766686,
+        "stop" : 1599715766686,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback new url",
+      "time" : {
+        "start" : 1599715766686,
+        "stop" : 1599715766686,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/oauth2/default/.well-known/openid-configuration",
+      "time" : {
+        "start" : 1599715766687,
+        "stop" : 1599715766687,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/oauth2/default/v1/keys",
+      "time" : {
+        "start" : 1599715766688,
+        "stop" : 1599715766688,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard new url",
+      "time" : {
+        "start" : 1599715766688,
+        "stop" : 1599715766688,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/oauth2/default/v1/userinfo",
+      "time" : {
+        "start" : 1599715766689,
+        "stop" : 1599715766689,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/api/v1/users/pf-bck-user1@blackthornrx.com",
+      "time" : {
+        "start" : 1599715766690,
+        "stop" : 1599715766690,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://jaukjdn917.execute-api.us-east-2.amazonaws.com/dev/user/pf-bck-user1@blackthornrx.com",
+      "time" : {
+        "start" : 1599715766691,
+        "stop" : 1599715766691,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715766692,
+        "stop" : 1599715766692,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715766692,
+        "stop" : 1599715766692,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "as (\"datasetsButton\")",
+      "time" : {
+        "start" : 1599715766693,
+        "stop" : 1599715766696,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"@datasetsButton\")",
+      "time" : {
+        "start" : 1599715766696,
+        "stop" : 1599715766889,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<div.single-nav-dataset-container>** to be **visible** assert",
+      "time" : {
+        "start" : 1599715766888,
+        "stop" : 1599715766888,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"div.single-nav-dataset-container\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715766890,
+        "stop" : 1599715766978,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click (\"[object Object]\")",
+      "time" : {
+        "start" : 1599715766978,
+        "stop" : 1599715767222,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1599715767222,
+        "stop" : 1599715770748,
+        "duration" : 3526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **https://pathfinder-dev-portal.blackthornrx.com/landing/dataset/home** to include **/dataset/home** assert",
+      "time" : {
+        "start" : 1599715770745,
+        "stop" : 1599715770745,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/landing/dataset/home new url",
+      "time" : {
+        "start" : 1599715770745,
+        "stop" : 1599715770745,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715770746,
+        "stop" : 1599715770746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715770746,
+        "stop" : 1599715770746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/user_dataset_tracker/_search",
+      "time" : {
+        "start" : 1599715770747,
+        "stop" : 1599715770747,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715770748,
+        "stop" : 1599715770748,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"input[placeholder='Search the Datasets']\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715770749,
+        "stop" : 1599715770980,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<input.ng-untouched.ng-pristine.ng-valid>** to be **visible** assert",
+      "time" : {
+        "start" : 1599715770980,
+        "stop" : 1599715770980,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"input[placeholder='Search the Datasets']\")",
+      "time" : {
+        "start" : 1599715770980,
+        "stop" : 1599715771080,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"NEP-MDD-201 ADaM-ADLB{enter}\")",
+      "time" : {
+        "start" : 1599715771080,
+        "stop" : 1599715778767,
+        "duration" : 7687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778726,
+        "stop" : 1599715778726,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778727,
+        "stop" : 1599715778727,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778727,
+        "stop" : 1599715778727,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778728,
+        "stop" : 1599715778728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778729,
+        "stop" : 1599715778729,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778729,
+        "stop" : 1599715778729,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778730,
+        "stop" : 1599715778730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778730,
+        "stop" : 1599715778730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778731,
+        "stop" : 1599715778731,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778731,
+        "stop" : 1599715778731,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778733,
+        "stop" : 1599715778733,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778734,
+        "stop" : 1599715778734,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778735,
+        "stop" : 1599715778735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778736,
+        "stop" : 1599715778736,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778736,
+        "stop" : 1599715778736,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778737,
+        "stop" : 1599715778737,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778737,
+        "stop" : 1599715778737,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778738,
+        "stop" : 1599715778738,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778738,
+        "stop" : 1599715778738,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778738,
+        "stop" : 1599715778738,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778739,
+        "stop" : 1599715778739,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778740,
+        "stop" : 1599715778740,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778741,
+        "stop" : 1599715778741,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778742,
+        "stop" : 1599715778742,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778743,
+        "stop" : 1599715778743,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778744,
+        "stop" : 1599715778744,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778745,
+        "stop" : 1599715778745,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778746,
+        "stop" : 1599715778746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778746,
+        "stop" : 1599715778746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778747,
+        "stop" : 1599715778747,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778747,
+        "stop" : 1599715778747,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778748,
+        "stop" : 1599715778748,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778750,
+        "stop" : 1599715778750,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778751,
+        "stop" : 1599715778751,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778757,
+        "stop" : 1599715778757,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778759,
+        "stop" : 1599715778759,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778759,
+        "stop" : 1599715778759,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778760,
+        "stop" : 1599715778760,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778761,
+        "stop" : 1599715778761,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778762,
+        "stop" : 1599715778762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778762,
+        "stop" : 1599715778762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778763,
+        "stop" : 1599715778763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778763,
+        "stop" : 1599715778763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/landing/dataset/search/NEP-MDD-201%20ADaM-ADLB new url",
+      "time" : {
+        "start" : 1599715778764,
+        "stop" : 1599715778764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778764,
+        "stop" : 1599715778764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715778765,
+        "stop" : 1599715778765,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778765,
+        "stop" : 1599715778765,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778766,
+        "stop" : 1599715778766,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715778766,
+        "stop" : 1599715778766,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"body > app-root > app-layout > app-content > div > app-dataset-landing > div > div > app-dataset-search-result > div > div.row > div > app-info-card > div > div.hover-info-card-container > div > div.content-wrapper > div.content-group\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715778767,
+        "stop" : 1599715779731,
+        "duration" : 964
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "as (\"datasetMatchB\")",
+      "time" : {
+        "start" : 1599715779731,
+        "stop" : 1599715779734,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"@datasetMatchB\")",
+      "time" : {
+        "start" : 1599715779734,
+        "stop" : 1599715779830,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click (\"[object Object]\")",
+      "time" : {
+        "start" : 1599715779830,
+        "stop" : 1599715780354,
+        "duration" : 524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"app-breadcrumbs span\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715780355,
+        "stop" : 1599715781329,
+        "duration" : 974
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://pathfinder-dev-portal.blackthornrx.com/landing/dataset/681ba42d-a399-4049-85f0-ff0d839e91b2/detail new url",
+      "time" : {
+        "start" : 1599715781324,
+        "stop" : 1599715781324,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715781325,
+        "stop" : 1599715781325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715781326,
+        "stop" : 1599715781326,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "PUT https://9c6q4pkpkh.execute-api.us-east-2.amazonaws.com/Development/v1/analytics/00usurjczxwGqg3Ui0h7/track",
+      "time" : {
+        "start" : 1599715781329,
+        "stop" : 1599715781329,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "as (\"backT\")",
+      "time" : {
+        "start" : 1599715781329,
+        "stop" : 1599715781331,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"@backT\")",
+      "time" : {
+        "start" : 1599715781331,
+        "stop" : 1599715781557,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<span.back-title>** to be **visible** assert",
+      "time" : {
+        "start" : 1599715781557,
+        "stop" : 1599715781557,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"div:nth-child(1) > li\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715781557,
+        "stop" : 1599715782053,
+        "duration" : 496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "as (\"details\")",
+      "time" : {
+        "start" : 1599715782053,
+        "stop" : 1599715782055,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"@details\")",
+      "time" : {
+        "start" : 1599715782055,
+        "stop" : 1599715782258,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<li.menu-item.active>** to be **visible** assert",
+      "time" : {
+        "start" : 1599715782258,
+        "stop" : 1599715782258,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"div:nth-child(2) > li\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715782258,
+        "stop" : 1599715782347,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "as (\"queryData\")",
+      "time" : {
+        "start" : 1599715782347,
+        "stop" : 1599715782349,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"@queryData\")",
+      "time" : {
+        "start" : 1599715782349,
+        "stop" : 1599715782594,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<li.menu-item>** to be **visible** assert",
+      "time" : {
+        "start" : 1599715782594,
+        "stop" : 1599715782594,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"div.list-menu-container > ul > li\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715782595,
+        "stop" : 1599715782680,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "as (\"details\")",
+      "time" : {
+        "start" : 1599715782680,
+        "stop" : 1599715782681,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"@details\")",
+      "time" : {
+        "start" : 1599715782681,
+        "stop" : 1599715782863,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<li.menu-item>** to be **visible** assert",
+      "time" : {
+        "start" : 1599715782863,
+        "stop" : 1599715782863,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 101
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Dataset E2E test"
+  }, {
+    "name" : "suite",
+    "value" : "Login to Okta, Navigating to dashboard"
+  }, {
+    "name" : "subSuite",
+    "value" : "dataset data validation test > ID: TD_08 Verify click on Details should display the description and details of the landing page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ac3d002f0c6a7b9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,794 @@
+{
+  "2d754a0f004f225a06969173d1753ff9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3567839bace5bba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599716070916,
+        "stop" : 1599716078816,
+        "duration" : 7900
+      }
+    } ]
+  },
+  "de11ef66edd5009b40b5c64118622074" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29fa2a235c09a046",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715702390,
+        "stop" : 1599715703553,
+        "duration" : 1163
+      }
+    } ]
+  },
+  "11d06dbdfbfbb64a97a27afaf5b550ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4001ed8a95b54c46",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1599716032736,
+        "stop" : 1599716032741,
+        "duration" : 5
+      }
+    } ]
+  },
+  "dd7198f10f7b85a51bca0741209cd071" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35401d2f37bc2453",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801500324,
+        "stop" : 1599801511481,
+        "duration" : 11157
+      }
+    } ]
+  },
+  "c995f8f574a1c4f2538ce3b14f3cff61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ac3d002f0c6a7b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715746162,
+        "stop" : 1599715782864,
+        "duration" : 36702
+      }
+    } ]
+  },
+  "6d0612818e55fb41f2c6f70d2f913a41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdf876e78e27a947",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599716106256,
+        "stop" : 1599716115785,
+        "duration" : 9529
+      }
+    } ]
+  },
+  "88f6e5b8b20a7d69b57e659bd98c8ae0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d81e4c49a6f1a3a8",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard' to include 'sagemaker'",
+      "time" : {
+        "start" : 1599715703574,
+        "stop" : 1599715709336,
+        "duration" : 5762
+      }
+    } ]
+  },
+  "ee314ae912343b55ce0e64aa6cde61b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a26897fe01c3c9e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715890980,
+        "stop" : 1599715904098,
+        "duration" : 13118
+      }
+    } ]
+  },
+  "15de1282d4e08909288719ea57c9890c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "774dbc9d3f79d337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801436693,
+        "stop" : 1599801447858,
+        "duration" : 11165
+      }
+    } ]
+  },
+  "5237d24abfa771c6313ff1ed8fc3b480" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "daf9b32faa8e7115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715802046,
+        "stop" : 1599715831805,
+        "duration" : 29759
+      }
+    } ]
+  },
+  "1e81507461f7c10b8df18b49701981b4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f04de390eaeedacd",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: Expected to find element: `#okta-signin-username`, but never found it.",
+      "time" : {
+        "start" : 1599715710806,
+        "stop" : 1599715721153,
+        "duration" : 10347
+      }
+    } ]
+  },
+  "914e09aab6a685907f73a233330a8f23" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f2a1a2b746a1d16",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: Expected to find element: `.single-nav-pipeline-container:nth-child(7)`, but never found it.",
+      "time" : {
+        "start" : 1599801331144,
+        "stop" : 1599801396333,
+        "duration" : 65189
+      }
+    } ]
+  },
+  "fb28b86352de0ef600622fd4b6ae76c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1ecfdd018379c00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599716095813,
+        "stop" : 1599716106142,
+        "duration" : 10329
+      }
+    } ]
+  },
+  "9d9fe088ee9d47a910eb2be5cadba355" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78b779d859718770",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1599716032750,
+        "stop" : 1599716032751,
+        "duration" : 1
+      }
+    } ]
+  },
+  "0233958a561d411ccea6a1f4804d984a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4664fe7074e89f46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715832463,
+        "stop" : 1599715849985,
+        "duration" : 17522
+      }
+    } ]
+  },
+  "30220fd5af297e2a03b8ddbc21fc9819" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68a157fd7a06b7a7",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard' to include 'sagemaker'",
+      "time" : {
+        "start" : 1599801511525,
+        "stop" : 1599801521342,
+        "duration" : 9817
+      }
+    } ]
+  },
+  "25a98fd6801a58dd42c42eca446b796a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e5e324068746a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715697537,
+        "stop" : 1599715700561,
+        "duration" : 3024
+      }
+    } ]
+  },
+  "eb480bf342babecccd5f3007fab40405" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62b1a76bc55aeaa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801481412,
+        "stop" : 1599801492899,
+        "duration" : 11487
+      }
+    } ]
+  },
+  "e1cefbb0f425a03924c8b9164a8e45ac" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e6c3c61525a7371",
+      "status" : "failed",
+      "statusDetails" : "cy.url(...).include is not a function",
+      "time" : {
+        "start" : 1599715930484,
+        "stop" : 1599715931901,
+        "duration" : 1417
+      }
+    } ]
+  },
+  "d217e8fe342f70104842d7f2c28e236f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32817ae1af497908",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715963596,
+        "stop" : 1599715984458,
+        "duration" : 20862
+      }
+    } ]
+  },
+  "7a98007f423ec4be007762f258d9c4c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bccff5f7e640667d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801447971,
+        "stop" : 1599801456951,
+        "duration" : 8980
+      }
+    } ]
+  },
+  "a5d22c9ecc7a9aebb173acdbf2cc544a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "986ab78d008f4c3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715871843,
+        "stop" : 1599715890416,
+        "duration" : 18573
+      }
+    } ]
+  },
+  "062eb10ffcd1b4caeba5fd6950afc6ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "380731e4cf564a34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599716078856,
+        "stop" : 1599716095363,
+        "duration" : 16507
+      }
+    } ]
+  },
+  "a990fa61da12f230e3b3cb4161a38720" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96fc57df23a58957",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1599716032757,
+        "stop" : 1599716032758,
+        "duration" : 1
+      }
+    } ]
+  },
+  "adc64f1975656e3427c2ed2f9ec1f650" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e11e59a8b9b8f2a9",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: Expected to find content: 'Notebook' but never did.",
+      "time" : {
+        "start" : 1599715655326,
+        "stop" : 1599715668176,
+        "duration" : 12850
+      }
+    } ]
+  },
+  "5360d24db7b3c42ee6558a6ac206e785" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17b5c07e04859e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715850392,
+        "stop" : 1599715871433,
+        "duration" : 21041
+      }
+    } ]
+  },
+  "ea889451b38dde9302ee9e1d88f51837" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f2760fe805c4ae4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715904450,
+        "stop" : 1599715913864,
+        "duration" : 9414
+      }
+    } ]
+  },
+  "cadab8be979fae945c1f5de9dc0ccc81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d855147d208599c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801493142,
+        "stop" : 1599801500210,
+        "duration" : 7068
+      }
+    } ]
+  },
+  "af184481868e0b2589d04b404c2769fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f49d11ae584109d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801521377,
+        "stop" : 1599801530159,
+        "duration" : 8782
+      }
+    } ]
+  },
+  "113ac71a605f46d45798b942d4404f81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec01464488770598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715709432,
+        "stop" : 1599715710791,
+        "duration" : 1359
+      }
+    } ]
+  },
+  "f98ef4ffc0bf4d917901af116fad6256" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a75f2d33c4769df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715700596,
+        "stop" : 1599715702380,
+        "duration" : 1784
+      }
+    } ]
+  },
+  "e29498963ec0a3fed1b4d1981e2072a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49159ffebfe09a5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715944493,
+        "stop" : 1599715963409,
+        "duration" : 18916
+      }
+    } ]
+  },
+  "3cb794fd7e2972a5bec43856e237f06b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd4de08d6d610169",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dataset/117dbdf5-d3ac-44ce-9330-c4e7c50872c4/detail' to include 'sagemaker'",
+      "time" : {
+        "start" : 1599715914019,
+        "stop" : 1599715930398,
+        "duration" : 16379
+      }
+    } ]
+  },
+  "e83044cd2d2574a2bd2a94b73fea5660" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7f4492942c2dbf0",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: Expected to find element: `button .create-button-heading`, but never found it.",
+      "time" : {
+        "start" : 1599801396398,
+        "stop" : 1599801413332,
+        "duration" : 16934
+      }
+    } ]
+  },
+  "6c12aec87b8280e73610972cb606f0f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf1edb812e86349d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599801456993,
+        "stop" : 1599801465296,
+        "duration" : 8303
+      }
+    } ]
+  },
+  "5f3975f0db1015313a3b0c3ef794113a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "707fb4e685b8c573",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599716054653,
+        "stop" : 1599716070717,
+        "duration" : 16064
+      }
+    } ]
+  },
+  "40b54d29bd6afeba4af449a55cc238f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69b88ea2e9a35cd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715783141,
+        "stop" : 1599715801565,
+        "duration" : 18424
+      }
+    } ]
+  },
+  "c55d669fcb8d69d4b2e1f31a035b2143" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfbcccd682a6e7d1",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected '<span.badge.badge-pill.badge-warning>' to be 'visible'\n\nThis element `<span.badge.badge-pill.badge-warning>` is not visible because its parent `<div.card.mr-3.mb-3>` has CSS property: `display: none`",
+      "time" : {
+        "start" : 1599716115885,
+        "stop" : 1599716139515,
+        "duration" : 23630
+      }
+    } ]
+  },
+  "99ab7f9d73c7fb4be826fcfa8b96f1c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7052bb4438932991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715684385,
+        "stop" : 1599715697379,
+        "duration" : 12994
+      }
+    } ]
+  },
+  "8518df23ec1da7cbad923c1db60ca0d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bcec021ed7d88ad",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1599716115875,
+        "stop" : 1599716115877,
+        "duration" : 2
+      }
+    } ]
+  },
+  "b828e94699bcf117f8f6341bbb7f51f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "750fdc2480b077f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599715931916,
+        "stop" : 1599715944280,
+        "duration" : 12364
+      }
+    } ]
+  }
+}

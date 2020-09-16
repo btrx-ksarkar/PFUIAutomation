@@ -1,0 +1,42 @@
+{
+  "uid" : "78b779d859718770",
+  "name" : "ID: TS_25 Verify the data is saved and Name is displayed on the landing pageE",
+  "fullName" : "ID: TS_25 Verify the data is saved and Name is displayed on the landing pageE",
+  "historyId" : "9d9fe088ee9d47a910eb2be5cadba355",
+  "time" : {
+    "start" : 1599716032750,
+    "stop" : 1599716032751,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Edit Profile"
+  }, {
+    "name" : "suite",
+    "value" : "Login to Okta, Navigating to dashboard"
+  }, {
+    "name" : "subSuite",
+    "value" : "Edit Profile > Edit Profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78b779d859718770.json",
+  "parameterValues" : [ ]
+}

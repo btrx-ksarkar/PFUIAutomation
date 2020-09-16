@@ -1,0 +1,623 @@
+{
+  "uid" : "249672108eede2bd",
+  "name" : "ID: TS_07 Verify Click on Datascience Notebook [Left Menu] should lead to Sagemaker",
+  "fullName" : "ID: TS_07 Verify Click on Datascience Notebook [Left Menu] should lead to Sagemaker",
+  "historyId" : "30220fd5af297e2a03b8ddbc21fc9819",
+  "time" : {
+    "start" : 1599715625541,
+    "stop" : 1599715634736,
+    "duration" : 9195
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard' to include 'sagemaker'",
+  "statusTrace" : "AssertionError: Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard' to include 'sagemaker'\n    at LeftMenu.dataScienceNoteBook (https://pathfinder-dev-portal.blackthornrx.com/__cypress/tests?p=cypress\\integration\\dashboard\\leftMenu.spec.js:243:16)\n    at Context.eval (https://pathfinder-dev-portal.blackthornrx.com/__cypress/tests?p=cypress\\integration\\dashboard\\leftMenu.spec.js:87:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/landing/dashboard\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715613420,
+        "stop" : 1599715615107,
+        "duration" : 1687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/landing/dashboard\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715619002,
+        "stop" : 1599715622687,
+        "duration" : 3685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/landing/dashboard\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715625579,
+        "stop" : 1599715628137,
+        "duration" : 2558
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/landing/dashboard\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715634818,
+        "stop" : 1599715635499,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ {
+      "name" : "fixture (\"blackthorn\")",
+      "time" : {
+        "start" : 1599715596112,
+        "stop" : 1599715596151,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log (\"[object Object]\")",
+      "time" : {
+        "start" : 1599715596154,
+        "stop" : 1599715596166,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "loginOkta",
+      "time" : {
+        "start" : 1599715596166,
+        "stop" : 1599715602439,
+        "duration" : 6273
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "request (\"[object Object]\")",
+        "time" : {
+          "start" : 1599715596168,
+          "stop" : 1599715597292,
+          "duration" : 1124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"Session Token: \"; \"20111UBTXKL5h9DlhWxMcWhjLA7q0g8a_ED8FwEOzsM-PtfzJtPbGcE\")",
+        "time" : {
+          "start" : 1599715597294,
+          "stop" : 1599715597301,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"20111UBTXKL5h9DlhWxMcWhjLA7q0g8a_ED8FwEOzsM-PtfzJtPbGcE\")",
+        "time" : {
+          "start" : 1599715597301,
+          "stop" : 1599715597306,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "request (\"[object Object]\")",
+        "time" : {
+          "start" : 1599715597306,
+          "stop" : 1599715597969,
+          "duration" : 663
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"RedirectURL: \"; \"https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback#access_token=eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlF2dUt3ZGVoZFMwNUo5UUVJeUNfNFlnNV9BemYtcy1sMjJRU0luSFNxZlkiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE1NTk3LCJleHAiOjE1OTk3MTkxOTcsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.j1mIhCqyDPAlL-uzjtd7GKQf6-xsZ4xHlKnTCM9_C8r_G4jTU32oJSsT_ZppVgmTuvophYSP7f0l585lBmOnZ9Vf9JV7el4EKRI3hPkh96uh2XH8jd-k6pWej3b5UktcRwfWZP-l6KYByDIWaYtuOvfefo4wua0NETRA4hmHYKet6aY1HqkL456XgIJscgE95PNwUoygiPkJ2RzFy3Dg43tDbJedq3B5IH1pl4bAqsgGv7NjHJ8ZWZMTR9m7Ko2EyhKODqxaSapm8WaShFnCens1O6EQbkmRcS2dSMnWhiiEbaFby7HY3FT43wvQU7lyVYeK8CRrtin7iGoKFZbi4Q&token_type=Bearer&expires_in=3600&scope=openid&state=1234\")",
+        "time" : {
+          "start" : 1599715597971,
+          "stop" : 1599715597977,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "log (\"Access Token: \"; \"eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlF2dUt3ZGVoZFMwNUo5UUVJeUNfNFlnNV9BemYtcy1sMjJRU0luSFNxZlkiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE1NTk3LCJleHAiOjE1OTk3MTkxOTcsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.j1mIhCqyDPAlL-uzjtd7GKQf6-xsZ4xHlKnTCM9_C8r_G4jTU32oJSsT_ZppVgmTuvophYSP7f0l585lBmOnZ9Vf9JV7el4EKRI3hPkh96uh2XH8jd-k6pWej3b5UktcRwfWZP-l6KYByDIWaYtuOvfefo4wua0NETRA4hmHYKet6aY1HqkL456XgIJscgE95PNwUoygiPkJ2RzFy3Dg43tDbJedq3B5IH1pl4bAqsgGv7NjHJ8ZWZMTR9m7Ko2EyhKODqxaSapm8WaShFnCens1O6EQbkmRcS2dSMnWhiiEbaFby7HY3FT43wvQU7lyVYeK8CRrtin7iGoKFZbi4Q\")",
+        "time" : {
+          "start" : 1599715597977,
+          "stop" : 1599715597981,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "wrap (\"eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlF2dUt3ZGVoZFMwNUo5UUVJeUNfNFlnNV9BemYtcy1sMjJRU0luSFNxZlkiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE1NTk3LCJleHAiOjE1OTk3MTkxOTcsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.j1mIhCqyDPAlL-uzjtd7GKQf6-xsZ4xHlKnTCM9_C8r_G4jTU32oJSsT_ZppVgmTuvophYSP7f0l585lBmOnZ9Vf9JV7el4EKRI3hPkh96uh2XH8jd-k6pWej3b5UktcRwfWZP-l6KYByDIWaYtuOvfefo4wua0NETRA4hmHYKet6aY1HqkL456XgIJscgE95PNwUoygiPkJ2RzFy3Dg43tDbJedq3B5IH1pl4bAqsgGv7NjHJ8ZWZMTR9m7Ko2EyhKODqxaSapm8WaShFnCens1O6EQbkmRcS2dSMnWhiiEbaFby7HY3FT43wvQU7lyVYeK8CRrtin7iGoKFZbi4Q\")",
+        "time" : {
+          "start" : 1599715597981,
+          "stop" : 1599715597990,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "as (\"accessToken\")",
+        "time" : {
+          "start" : 1599715597990,
+          "stop" : 1599715597991,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "visit (\"https://pathfinder-dev-portal.blackthornrx.com/auth/implicit/callback#access_token=eyJraWQiOiJOMWpQb002WnJKVDdSdm5uZ0JvSmJRRHhUbno0eXo4LU1DbGRjcDZLX2owIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlF2dUt3ZGVoZFMwNUo5UUVJeUNfNFlnNV9BemYtcy1sMjJRU0luSFNxZlkiLCJpc3MiOiJodHRwczovL2JsYWNrdGhvcm5yeC1kZXYub2t0YXByZXZpZXcuY29tIiwiYXVkIjoiaHR0cHM6Ly9ibGFja3Rob3JucngtZGV2Lm9rdGFwcmV2aWV3LmNvbSIsInN1YiI6InBmLWJjay11c2VyMUBibGFja3Rob3JucnguY29tIiwiaWF0IjoxNTk5NzE1NTk3LCJleHAiOjE1OTk3MTkxOTcsImNpZCI6IjBvYXBsYzh1cTFGSERLcjNIMGg3IiwidWlkIjoiMDB1c3VyamN6eHdHcWczVWkwaDciLCJzY3AiOlsib3BlbmlkIl19.j1mIhCqyDPAlL-uzjtd7GKQf6-xsZ4xHlKnTCM9_C8r_G4jTU32oJSsT_ZppVgmTuvophYSP7f0l585lBmOnZ9Vf9JV7el4EKRI3hPkh96uh2XH8jd-k6pWej3b5UktcRwfWZP-l6KYByDIWaYtuOvfefo4wua0NETRA4hmHYKet6aY1HqkL456XgIJscgE95PNwUoygiPkJ2RzFy3Dg43tDbJedq3B5IH1pl4bAqsgGv7NjHJ8ZWZMTR9m7Ko2EyhKODqxaSapm8WaShFnCens1O6EQbkmRcS2dSMnWhiiEbaFby7HY3FT43wvQU7lyVYeK8CRrtin7iGoKFZbi4Q&token_type=Bearer&expires_in=3600&scope=openid&state=1234\")",
+        "time" : {
+          "start" : 1599715597991,
+          "stop" : 1599715601506,
+          "duration" : 3515
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "visit (\"/\")",
+        "time" : {
+          "start" : 1599715601506,
+          "stop" : 1599715602439,
+          "duration" : 933
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 10
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 13
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard' to include 'sagemaker'",
+    "statusTrace" : "AssertionError: Timed out retrying: expected 'https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard' to include 'sagemaker'\n    at LeftMenu.dataScienceNoteBook (https://pathfinder-dev-portal.blackthornrx.com/__cypress/tests?p=cypress\\integration\\dashboard\\leftMenu.spec.js:243:16)\n    at Context.eval (https://pathfinder-dev-portal.blackthornrx.com/__cypress/tests?p=cypress\\integration\\dashboard\\leftMenu.spec.js:87:21)",
+    "steps" : [ {
+      "name" : "get (\"div.single-nav-notebook-container\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715628168,
+        "stop" : 1599715630113,
+        "duration" : 1945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/oauth2/default/v1/userinfo",
+      "time" : {
+        "start" : 1599715630112,
+        "stop" : 1599715630112,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://blackthornrx-dev.oktapreview.com/api/v1/users/pf-bck-user1@blackthornrx.com",
+      "time" : {
+        "start" : 1599715630112,
+        "stop" : 1599715630112,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://jaukjdn917.execute-api.us-east-2.amazonaws.com/dev/user/pf-bck-user1@blackthornrx.com",
+      "time" : {
+        "start" : 1599715630112,
+        "stop" : 1599715630112,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715630112,
+        "stop" : 1599715630112,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://hcw849k6yg.execute-api.us-east-2.amazonaws.com/dev/dataset_metadata_detail/_search",
+      "time" : {
+        "start" : 1599715630113,
+        "stop" : 1599715630113,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "as (\"dataScienceNoteBookButton\")",
+      "time" : {
+        "start" : 1599715630113,
+        "stop" : 1599715630114,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"@dataScienceNoteBookButton\")",
+      "time" : {
+        "start" : 1599715630114,
+        "stop" : 1599715630160,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<div.single-nav-notebook-container>** to be **visible** assert",
+      "time" : {
+        "start" : 1599715630159,
+        "stop" : 1599715630159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"div.single-nav-notebook-container\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715630160,
+        "stop" : 1599715630178,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "as (\"dataScienceNoteBookButton\")",
+      "time" : {
+        "start" : 1599715630178,
+        "stop" : 1599715630179,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"@dataScienceNoteBookButton\")",
+      "time" : {
+        "start" : 1599715630179,
+        "stop" : 1599715630224,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<div.single-nav-notebook-container>** to be **visible** assert",
+      "time" : {
+        "start" : 1599715630224,
+        "stop" : 1599715630224,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"div.single-nav-notebook-container\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1599715630224,
+        "stop" : 1599715630241,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click (\"[object Object]\")",
+      "time" : {
+        "start" : 1599715630241,
+        "stop" : 1599715630332,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1599715630332,
+        "stop" : 1599715634347,
+        "duration" : 4015
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **https://pathfinder-dev-portal.blackthornrx.com/landing/dashboard** to include **sagemaker** assert",
+      "time" : {
+        "start" : 1599715634346,
+        "stop" : 1599715634346,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "name" : "dashboard\\leftMenu.spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    }, {
+      "uid" : "12529d43381635c2",
+      "name" : "dashboard\\leftMenu.spec.js:2020-09-10T05:27:14.370Z",
+      "source" : "12529d43381635c2.png",
+      "type" : "image/png",
+      "size" : 135592
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 17
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Left Menu"
+  }, {
+    "name" : "suite",
+    "value" : "Login to Okta, Navigating to dashboard"
+  }, {
+    "name" : "subSuite",
+    "value" : "it should be able to validate Dashboard > it should validate navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "249672108eede2bd.json",
+  "parameterValues" : [ ]
+}

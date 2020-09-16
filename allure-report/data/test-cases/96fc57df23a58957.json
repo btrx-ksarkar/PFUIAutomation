@@ -1,0 +1,42 @@
+{
+  "uid" : "96fc57df23a58957",
+  "name" : "ID: TS_26 Verify by Cancel at Edit Profile does not save the information",
+  "fullName" : "ID: TS_26 Verify by Cancel at Edit Profile does not save the information",
+  "historyId" : "a990fa61da12f230e3b3cb4161a38720",
+  "time" : {
+    "start" : 1599716032757,
+    "stop" : 1599716032758,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Edit Profile"
+  }, {
+    "name" : "suite",
+    "value" : "Login to Okta, Navigating to dashboard"
+  }, {
+    "name" : "subSuite",
+    "value" : "Edit Profile > Edit Profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96fc57df23a58957.json",
+  "parameterValues" : [ ]
+}

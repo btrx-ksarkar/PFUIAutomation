@@ -1,0 +1,710 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "MAin Content",
+    "children" : [ {
+      "name" : "Login to Okta, Navigating to dashboard",
+      "children" : [ {
+        "name" : "it should be able to validate Dashboard",
+        "children" : [ {
+          "name" : "ID: TS_09 Verify the contents displayed at the Main Content Area Section",
+          "uid" : "e11e59a8b9b8f2a9",
+          "parentUid" : "7a069a6576ac194714e06977949c14b0",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599715655326,
+            "stop" : 1599715668176,
+            "duration" : 12850
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7a069a6576ac194714e06977949c14b0"
+      } ],
+      "uid" : "b1db6466312c2cdf60091d0619b1795c"
+    } ],
+    "uid" : "f8c866706f1249fa14a63f085f0f01ff"
+  }, {
+    "name" : "Menu Bar Tesr",
+    "children" : [ {
+      "name" : "Login to Okta, Navigating to dashboard",
+      "children" : [ {
+        "name" : "it should be able to validate Dashboard > it should be able to validate menubar",
+        "children" : [ {
+          "name" : "ID: TS_01 Verify the contents displayed at the Header section",
+          "uid" : "7052bb4438932991",
+          "parentUid" : "6c4fdac4ed6b70a2fd6387bab41fbe28",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715684385,
+            "stop" : 1599715697379,
+            "duration" : 12994
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6c4fdac4ed6b70a2fd6387bab41fbe28"
+      }, {
+        "name" : "it should be able to validate Dashboard > it should validate tab navigation",
+        "children" : [ {
+          "name" : "ID: TS_19 Verify Click on the Datasets tab should lead to the Dataset tab",
+          "uid" : "2e5e324068746a6",
+          "parentUid" : "e373e718e798cc782c59b6bd318fc6e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715697537,
+            "stop" : 1599715700561,
+            "duration" : 3024
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_20 Verify Click on the Pathfinder icon should lead to the Homepage of the pathfinder",
+          "uid" : "2a75f2d33c4769df",
+          "parentUid" : "e373e718e798cc782c59b6bd318fc6e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715700596,
+            "stop" : 1599715702380,
+            "duration" : 1784
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_27 Verify Click on the Analytics Portal tab should lead to the Kibana",
+          "uid" : "29fa2a235c09a046",
+          "parentUid" : "e373e718e798cc782c59b6bd318fc6e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715702390,
+            "stop" : 1599715703553,
+            "duration" : 1163
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_28 Verify Click on the Datascience Notebook tab should lead to the Sagemaker",
+          "uid" : "d81e4c49a6f1a3a8",
+          "parentUid" : "e373e718e798cc782c59b6bd318fc6e1",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599715703574,
+            "stop" : 1599715709336,
+            "duration" : 5762
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_29 Verify Click on the ML Pipeline tab should lead to the ML Pipeline tab",
+          "uid" : "ec01464488770598",
+          "parentUid" : "e373e718e798cc782c59b6bd318fc6e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715709432,
+            "stop" : 1599715710791,
+            "duration" : 1359
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_30 Verify the logout functionality",
+          "uid" : "f04de390eaeedacd",
+          "parentUid" : "e373e718e798cc782c59b6bd318fc6e1",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599715710806,
+            "stop" : 1599715721153,
+            "duration" : 10347
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e373e718e798cc782c59b6bd318fc6e1"
+      } ],
+      "uid" : "6929191a5dd44a8b7b21012b7981b480"
+    } ],
+    "uid" : "72513d3b4926c1219ee0a3538fcbb83f"
+  }, {
+    "name" : "Dataset E2E test",
+    "children" : [ {
+      "name" : "Login to Okta, Navigating to dashboard",
+      "children" : [ {
+        "name" : "dataset data validation test > ID: TD_08 Verify click on Details should display the description and details of the landing page",
+        "children" : [ {
+          "name" : "ID: TD_08 verify detail page",
+          "uid" : "8ac3d002f0c6a7b9",
+          "parentUid" : "435d114afa067033254f589d71756097",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715746162,
+            "stop" : 1599715782864,
+            "duration" : 36702
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "435d114afa067033254f589d71756097"
+      }, {
+        "name" : "dataset data validation test > ID: TD_01 Verify the contents displayed for NEP-MDD-201 ADaM-ADLB at the Datasets Details page",
+        "children" : [ {
+          "name" : "ID: TD_01 NEP-MDD-201 ADaM-ADLB",
+          "uid" : "69b88ea2e9a35cd8",
+          "parentUid" : "f75f8e3c628185214cd4d2c64f775e0d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715783141,
+            "stop" : 1599715801565,
+            "duration" : 18424
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f75f8e3c628185214cd4d2c64f775e0d"
+      }, {
+        "name" : "dataset data validation test > ID: TD_02 Verify the contents displayed for iSPOT-D: International Study to Predict Optimized Treatment for Depression at the Datasets Details page",
+        "children" : [ {
+          "name" : "ID: TD_02 iSPOT-D: International Study to Predict Optimized Treatment for Depression",
+          "uid" : "daf9b32faa8e7115",
+          "parentUid" : "24d3106c8fbd7b38909e19a3479cdfa2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715802046,
+            "stop" : 1599715831805,
+            "duration" : 29759
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "24d3106c8fbd7b38909e19a3479cdfa2"
+      }, {
+        "name" : "dataset data validation test > ID: TD_03 Verify the contents displayed for Mint-Cog – Reward Cognitive Interactions at the Datasets Details page",
+        "children" : [ {
+          "name" : "ID: TD_03 Mint-Cog – Reward Cognitive Interactions",
+          "uid" : "4664fe7074e89f46",
+          "parentUid" : "e0c05ce70c236529f4722445b699526b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715832463,
+            "stop" : 1599715849985,
+            "duration" : 17522
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e0c05ce70c236529f4722445b699526b"
+      }, {
+        "name" : "dataset data validation test > ID: TD_04 Verify the contents displayed for EMBARC: Establishing Moderators and Biosignatures of Antidepressant Response in Clinical Care at the Datasets Details page",
+        "children" : [ {
+          "name" : "ID: TD_04 EMBARC: Establishing Moderators and Biosignatures of Antidepressant Response in Clinical Care",
+          "uid" : "17b5c07e04859e",
+          "parentUid" : "6594a68779469638f1be3994706152dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715850392,
+            "stop" : 1599715871433,
+            "duration" : 21041
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6594a68779469638f1be3994706152dc"
+      }, {
+        "name" : "dataset data validation test > ID: TD_05 Verify the contents displayed for NEP-MDD-201 Canary Speech at the Datasets Details page",
+        "children" : [ {
+          "name" : "ID: TD_05 NEP-MDD-201 Canary Speech",
+          "uid" : "986ab78d008f4c3d",
+          "parentUid" : "913b4d4d01c6e0967a985d0383c064a7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715871843,
+            "stop" : 1599715890416,
+            "duration" : 18573
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "913b4d4d01c6e0967a985d0383c064a7"
+      }, {
+        "name" : "dataset data validation test > ID: TD_06 Verify the contents displayed for NEP-MDD-201 SDTM-AE at the Datasets Details page",
+        "children" : [ {
+          "name" : "ID: TD_06 NEP-MDD-201 SDTM-AE",
+          "uid" : "a26897fe01c3c9e1",
+          "parentUid" : "5e9469ebc390283dd5b45630a62fe9a0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715890980,
+            "stop" : 1599715904098,
+            "duration" : 13118
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5e9469ebc390283dd5b45630a62fe9a0"
+      }, {
+        "name" : "dataset data validation test > ID: TD_07 Verify back to dataset button leads back to dataset homepage",
+        "children" : [ {
+          "name" : "ID: TD_07 back to dataset validate",
+          "uid" : "5f2760fe805c4ae4",
+          "parentUid" : "7b6989e672e3eb57574c1ee8d5966bb0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715904450,
+            "stop" : 1599715913864,
+            "duration" : 9414
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7b6989e672e3eb57574c1ee8d5966bb0"
+      }, {
+        "name" : "dataset data validation test > ID: TD_09 Verify the Sagemaker option lead to the respective page",
+        "children" : [ {
+          "name" : "ID: TD_09 validate sagemaker",
+          "uid" : "bd4de08d6d610169",
+          "parentUid" : "05e8d99cf0d2c116ec1791aee801798b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599715914019,
+            "stop" : 1599715930398,
+            "duration" : 16379
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "05e8d99cf0d2c116ec1791aee801798b"
+      }, {
+        "name" : "dataset data validation test > ID: TD_10 Verify the QUERY DATA leads to Athena Page",
+        "children" : [ {
+          "name" : "ID: TD_10 Verify the QUERY DATA",
+          "uid" : "4e6c3c61525a7371",
+          "parentUid" : "4eab2861157bf22e8705d633038dd9b8",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599715930484,
+            "stop" : 1599715931901,
+            "duration" : 1417
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4eab2861157bf22e8705d633038dd9b8"
+      }, {
+        "name" : "dataset data validation test > ID: TD_15 Verify the Data Dictionary tab",
+        "children" : [ {
+          "name" : "ID: TD_15 Data Dictionary tab",
+          "uid" : "750fdc2480b077f4",
+          "parentUid" : "4bbc21a789e5acbc1d39f10b777f96e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715931916,
+            "stop" : 1599715944280,
+            "duration" : 12364
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4bbc21a789e5acbc1d39f10b777f96e2"
+      }, {
+        "name" : "dataset data validation test > ID: TS_20 Verify search audio files for VMH/Multimodal datasets",
+        "children" : [ {
+          "name" : "ID: TS_20 VMH/Multimodal",
+          "uid" : "49159ffebfe09a5a",
+          "parentUid" : "944d7f877fbc9b84539ea048a652689f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715944493,
+            "stop" : 1599715963409,
+            "duration" : 18916
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "944d7f877fbc9b84539ea048a652689f"
+      }, {
+        "name" : "dataset data validation test > ID: TS_21 Veirfy Video playing popup and video player",
+        "children" : [ {
+          "name" : "ID: TS_21 Veirfy Video playing popup and video player",
+          "uid" : "32817ae1af497908",
+          "parentUid" : "f1414e628544f0a8cd69052172a75920",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599715963596,
+            "stop" : 1599715984458,
+            "duration" : 20862
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1414e628544f0a8cd69052172a75920"
+      } ],
+      "uid" : "b46796f6f598cd11fc2285fe107c9e79"
+    } ],
+    "uid" : "1307d4d9ecde72996faefcccead07115"
+  }, {
+    "name" : "Edit Profile",
+    "children" : [ {
+      "name" : "Login to Okta, Navigating to dashboard",
+      "children" : [ {
+        "name" : "Edit Profile > Edit Profile",
+        "children" : [ {
+          "name" : "ID: TS_24 Verify click on the Edit profile should display the same name as present in the home page",
+          "uid" : "4001ed8a95b54c46",
+          "parentUid" : "338a8b301e91a042a0b1486bd8a53e6e",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1599716032736,
+            "stop" : 1599716032741,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_25 Verify the data is saved and Name is displayed on the landing pageE",
+          "uid" : "78b779d859718770",
+          "parentUid" : "338a8b301e91a042a0b1486bd8a53e6e",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1599716032750,
+            "stop" : 1599716032751,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_26 Verify by Cancel at Edit Profile does not save the information",
+          "uid" : "96fc57df23a58957",
+          "parentUid" : "338a8b301e91a042a0b1486bd8a53e6e",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1599716032757,
+            "stop" : 1599716032758,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "338a8b301e91a042a0b1486bd8a53e6e"
+      } ],
+      "uid" : "7bca267d602202c02f936a1cc9a79374"
+    } ],
+    "uid" : "5ca52ab96a96e9d252ce448b9a0b80a7"
+  }, {
+    "name" : "QC E2E test",
+    "children" : [ {
+      "name" : "Login to Okta, Navigating to dashboard",
+      "children" : [ {
+        "name" : "ID: TQC_01 LogIn to Pathfinder and go to Quality Control Page ('QC' button in the navigation bar)",
+        "children" : [ {
+          "name" : "TQC_01 Validation",
+          "uid" : "707fb4e685b8c573",
+          "parentUid" : "ec90388a2af2c7c3a66ae7cdb1249876",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599716054653,
+            "stop" : 1599716070717,
+            "duration" : 16064
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ec90388a2af2c7c3a66ae7cdb1249876"
+      }, {
+        "name" : "ID: TQC_02 mLogIn to Pathfinder and go to Quality Control Page",
+        "children" : [ {
+          "name" : "TQC_02 Validation",
+          "uid" : "3567839bace5bba",
+          "parentUid" : "e86a8eb69026c223c3ca5839524fb223",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599716070916,
+            "stop" : 1599716078816,
+            "duration" : 7900
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e86a8eb69026c223c3ca5839524fb223"
+      }, {
+        "name" : "ID: TQC_03 Login to pathfinder and go the Individual scans page",
+        "children" : [ {
+          "name" : "TQC_03 Validation",
+          "uid" : "380731e4cf564a34",
+          "parentUid" : "0bb91ce0de62830bb543a51e9cb2e39a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599716078856,
+            "stop" : 1599716095363,
+            "duration" : 16507
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0bb91ce0de62830bb543a51e9cb2e39a"
+      }, {
+        "name" : "ID: TQC_04 mLogIn to Pathfinder and go to Quality Control Page",
+        "children" : [ {
+          "name" : "TQC_04 01 Bold Resting State",
+          "uid" : "c1ecfdd018379c00",
+          "parentUid" : "1193c395ed893845839ecc8428f0961e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599716095813,
+            "stop" : 1599716106142,
+            "duration" : 10329
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TQC_04 02 T1 Weighted image",
+          "uid" : "cdf876e78e27a947",
+          "parentUid" : "1193c395ed893845839ecc8428f0961e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599716106256,
+            "stop" : 1599716115785,
+            "duration" : 9529
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1193c395ed893845839ecc8428f0961e"
+      }, {
+        "name" : "ID: TQC_05 Log in to PF UI and go to Evaluation page",
+        "children" : [ {
+          "name" : "TQC_05 Validation",
+          "uid" : "1bcec021ed7d88ad",
+          "parentUid" : "7193e7d3923408abdcbc68a0cb8582a7",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1599716115875,
+            "stop" : 1599716115877,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7193e7d3923408abdcbc68a0cb8582a7"
+      }, {
+        "name" : "ID: TQC_08 Validate the Sliced Image Tags",
+        "children" : [ {
+          "name" : "TQC_08 Validation",
+          "uid" : "dfbcccd682a6e7d1",
+          "parentUid" : "f3a3b3a888c821a419212e1d99f196c2",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599716115885,
+            "stop" : 1599716139515,
+            "duration" : 23630
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f3a3b3a888c821a419212e1d99f196c2"
+      } ],
+      "uid" : "8aad3ae24dc0418f73e8d6b1e97cd8eb"
+    } ],
+    "uid" : "0bf574e8c60a09dd84f1f12c051548cf"
+  }, {
+    "name" : "Archive Restore",
+    "children" : [ {
+      "name" : "Approve Archive request",
+      "uid" : "6f2a1a2b746a1d16",
+      "parentUid" : "0a492fdbc31af0e42f7ff4ad5d23a19e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1599801331144,
+        "stop" : 1599801396333,
+        "duration" : 65189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Approve Request",
+      "children" : [ {
+        "name" : "Create Archive request",
+        "uid" : "f7f4492942c2dbf0",
+        "parentUid" : "b1cf859281734707b67071f251dc002e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599801396398,
+          "stop" : 1599801413332,
+          "duration" : 16934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1cf859281734707b67071f251dc002e"
+    } ],
+    "uid" : "0a492fdbc31af0e42f7ff4ad5d23a19e"
+  }, {
+    "name" : "Footer",
+    "children" : [ {
+      "name" : "Login to Okta, Navigating to dashboard",
+      "children" : [ {
+        "name" : "it should be able to validate Dashboard > it should be able to footer menubar",
+        "children" : [ {
+          "name" : "ID: TS_02 Verify the contents displayed at the Footer section",
+          "uid" : "774dbc9d3f79d337",
+          "parentUid" : "c85221c260d4cb7280fddac6dab0e2d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599801436693,
+            "stop" : 1599801447858,
+            "duration" : 11165
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c85221c260d4cb7280fddac6dab0e2d3"
+      }, {
+        "name" : "it should be able to validate Dashboard > it should validate footer navigation",
+        "children" : [ {
+          "name" : "ID: TS_21 Verify Click on Privacy policy at the bottom of the page should lead to policy page",
+          "uid" : "bccff5f7e640667d",
+          "parentUid" : "ad2e882e4a069029a1a939e447d673d9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599801447971,
+            "stop" : 1599801456951,
+            "duration" : 8980
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_22 Verify Click on Terms of Use at the bottom of the page should lead to Terms usage page",
+          "uid" : "bf1edb812e86349d",
+          "parentUid" : "ad2e882e4a069029a1a939e447d673d9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599801456993,
+            "stop" : 1599801465296,
+            "duration" : 8303
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ad2e882e4a069029a1a939e447d673d9"
+      } ],
+      "uid" : "e87fd049aa99fa013769335f33252ee7"
+    } ],
+    "uid" : "7c9621d9a77ed71e4058c5f47ad88f92"
+  }, {
+    "name" : "Left Menu",
+    "children" : [ {
+      "name" : "Login to Okta, Navigating to dashboard",
+      "children" : [ {
+        "name" : "it should be able to validate Dashboard > it should be able to leftMenu navigation list",
+        "children" : [ {
+          "name" : "ID: TS_03 Verify the contents displayed at the Left Menu section",
+          "uid" : "62b1a76bc55aeaa4",
+          "parentUid" : "35d8efd119af2016b27e3922601bbd70",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599801481412,
+            "stop" : 1599801492899,
+            "duration" : 11487
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "35d8efd119af2016b27e3922601bbd70"
+      }, {
+        "name" : "it should be able to validate Dashboard > it should validate navigation",
+        "children" : [ {
+          "name" : "ID: TS_05 Verify Click on Datasets [Left Menu] should lead to Datasets page",
+          "uid" : "d855147d208599c3",
+          "parentUid" : "c0350464a34fd8c2c948eb7d29f2414b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599801493142,
+            "stop" : 1599801500210,
+            "duration" : 7068
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_06 Verify Click on Analytics Portal [Left Menu] should lead to Analytics Portal page",
+          "uid" : "35401d2f37bc2453",
+          "parentUid" : "c0350464a34fd8c2c948eb7d29f2414b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599801500324,
+            "stop" : 1599801511481,
+            "duration" : 11157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_07 Verify Click on Datascience Notebook [Left Menu] should lead to Sagemaker",
+          "uid" : "68a157fd7a06b7a7",
+          "parentUid" : "c0350464a34fd8c2c948eb7d29f2414b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599801511525,
+            "stop" : 1599801521342,
+            "duration" : 9817
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ID: TS_08 Verify Click on ML Pipeline [Left Menu] should lead to ML Pipeline page",
+          "uid" : "f49d11ae584109d5",
+          "parentUid" : "c0350464a34fd8c2c948eb7d29f2414b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599801521377,
+            "stop" : 1599801530159,
+            "duration" : 8782
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c0350464a34fd8c2c948eb7d29f2414b"
+      } ],
+      "uid" : "765f2278c01963071e5021d2bf0002fd"
+    } ],
+    "uid" : "88c33b44afded2887d0275b6e599bd5d"
+  } ]
+}

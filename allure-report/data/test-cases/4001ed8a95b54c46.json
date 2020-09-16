@@ -1,0 +1,42 @@
+{
+  "uid" : "4001ed8a95b54c46",
+  "name" : "ID: TS_24 Verify click on the Edit profile should display the same name as present in the home page",
+  "fullName" : "ID: TS_24 Verify click on the Edit profile should display the same name as present in the home page",
+  "historyId" : "11d06dbdfbfbb64a97a27afaf5b550ab",
+  "time" : {
+    "start" : 1599716032736,
+    "stop" : 1599716032741,
+    "duration" : 5
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Edit Profile"
+  }, {
+    "name" : "suite",
+    "value" : "Login to Okta, Navigating to dashboard"
+  }, {
+    "name" : "subSuite",
+    "value" : "Edit Profile > Edit Profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4001ed8a95b54c46.json",
+  "parameterValues" : [ ]
+}

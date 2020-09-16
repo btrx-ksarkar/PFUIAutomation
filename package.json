@@ -1,0 +1,31 @@
+{
+  "name": "uicyautomation",
+  "version": "1.0.0",
+  "description": "cypress ui automation",
+  "main": "index.js",
+  "scripts": {
+    "clean": "",
+    "test": "node_modules/.bin/cypress run --env allure=true",
+    "report": "node_modules/.bin/allure generate ./cypress/reports -c && allure open",
+    "cypress": "node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nk.git"
+  },
+  "keywords": [
+    "cypress",
+    "UI Automation",
+    "allure"
+  ],
+  "author": "kaushik.sarkar@blackthornrx.com",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.11.0",
+    "cypress-xpath": "^1.6.0"
+  },
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^1.8.1",
+    "allure-commandline": "^2.13.0"
+  }
+}
